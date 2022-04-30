@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #d1b07b;
+}
+
+body main {
+  height: 100vh;
+  background-image: url("../img/register.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body main .forms {
+  position: relative;
+  top: 23rem;
+  left: 30rem;
+  width: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body main .forms input, body main .forms button {
+  font-size: 24px;
+  width: 300px;
+  height: 30px;
+  padding: 1rem;
+  margin: auto;
+  display: block;
+}
+
+body main .forms button {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.3);
+  background-color: #d1b07b;
+}
+
+body main .forms button:hover {
+  cursor: pointer;
+  background-color: #af976e;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+/*# sourceMappingURL=register.css.map */

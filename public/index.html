@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./src/styles/register.css">
+</head>
+<body>
+    <main>
+        <section class="forms">
+            <form id="register" method="post">
+                <input required type="email" name="Email" id="emailRegister">
+                <input required type="password" name="password" id="passwordRegister">
+                <button type="submit"> register </button>
+            </form>
+            <form id="login" action="/register/login" method="get">
+                <input required type="email" name="Email" id="emailLogin">
+                <input required type="password" name="password" id="passwordLogin">
+                <button type="submit"> Login </button>
+            </form>
+        </section>
+    </main>
+
+    <script src="src/scripts/register.js"></script>
+</body>
+</html>
